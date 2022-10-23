@@ -4,10 +4,9 @@ from .db import Base
 
 
 class Activity(Base):
-    # https://docs.sqlalchemy.org/en/14/orm/mapping_columns.html
-    __tablename__ = 'activity'
+    __tablename__ = 'activty_titles'
     __table_args__ = {'schema': 'innometrics'}
-    activity_id = Column('activityid', Integer, primary_key=True)
+    activity_id = Column('activity_id', Integer, primary_key=True)
     browser_title = Column('browser_title', String)
     executable_name = Column('executable_name', String)
 

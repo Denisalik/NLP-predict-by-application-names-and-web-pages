@@ -7,10 +7,6 @@ from model import SessionLocal, Activity, activity_to_dict
 
 app = FastAPI(title='app')
 
-"""
-ssh dshchegletov@10.90.122.197 -p 22
-"""
-
 
 def get_session():
     db = SessionLocal()
