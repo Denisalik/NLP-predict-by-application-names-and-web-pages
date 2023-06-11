@@ -3,6 +3,7 @@ uvicorn==0.18.3
 fastapi==0.78.0
 sqlalchemy==1.4.41
 psycopg2-binary==2.9.3
+tabNamesCat==0.1.4
 #ML
 nltk==3.7
 jupyter==1.0.0
